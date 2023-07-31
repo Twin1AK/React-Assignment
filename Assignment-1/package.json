@@ -1,0 +1,92 @@
+{
+  "name": "crypto-exchange",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.1",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "formik": "^2.3.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-lazy-load-image-component": "^1.6.0",
+    "react-redux": "^8.0.7",
+    "react-router-dom": "^6.12.1",
+    "react-scripts": "5.0.1",
+    "react-virtualized-auto-sizer": "^1.0.20",
+    "react-window": "^1.8.9",
+    "redux": "^4.2.1",
+    "sass": "^1.62.1",
+    "uuid": "^9.0.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "jest --transformIgnorePatterns=node_modules/(?!(react-bootstrap)/)"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@inrupt/jest-jsdom-polyfills": "^1.8.0",
+    "@testing-library/react": "^14.0.0",
+    "babel-jest": "^29.5.0",
+    "fast-text-encoding": "^1.0.6",
+    "jest": "^29.5.0",
+    "jsdom": "^22.1.0",
+    "jsdom-global": "^3.0.2",
+    "redux-mock-store": "^1.5.4",
+    "text-encoding": "^0.7.0"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./jest.setup.js"
+    ],
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "globals": {
+      "ts-jest": {
+        "useESM": true
+      }
+    },
+    "testEnvironment": "jsdom",
+    "moduleNameMapper":{
+             "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
+             "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+        }
+     
+    
+  }
+}

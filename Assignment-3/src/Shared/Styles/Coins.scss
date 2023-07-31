@@ -1,0 +1,23 @@
+.dropdown-menu{
+    max-height: 20rem;
+    overflow-y: auto;
+    overflow-x: clip;
+}
+.coin-transfer-form-wrapper{
+    border: 1px solid grey;
+    height: 10rem;
+}
+.dropDownAbsolute{
+    position: absolute;
+}
+.mt-4rem{
+    margin-top: 4rem !important;
+}
+.zIndex99{
+    z-index: 99;
+}
+.transferBtn{
+    // position: absolute;
+    // top:10%
+    text-align: end;
+}

@@ -1,0 +1,23 @@
+.noStyleType{
+    list-style-type: none;
+}
+.Blogs-heading{
+    text-align: start;
+}
+.action-btn{
+    margin-right: 1rem;
+}
+.add-Blog-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .add-blog{
+        span{
+        cursor: pointer;
+            i{
+                font-size: 2rem;
+                
+            }
+        }
+    }
+}

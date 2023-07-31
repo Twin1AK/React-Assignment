@@ -1,0 +1,39 @@
+.navLink{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+    &:hover{
+        color: black
+    }
+}
+.errorMsg{
+    color: red;
+    text-align: start;
+}
+.signUpWrapper{
+      /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+input{
+    background-color: aliceblue;
+}
+.dropdownClass{
+    display: flex;
+    .dropdown{
+        width: 100%;
+        button{
+            width: 100%;
+            text-align: left;
+        }
+      
+        .dropdown-menu{
+            width: 100%;
+        }
+
+    }
+}

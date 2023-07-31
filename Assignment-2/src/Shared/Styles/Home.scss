@@ -1,0 +1,16 @@
+.NavBtn{
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+        color: white;
+        cursor: pointer;
+    }
+}
+.img-wrapper{
+    .img{
+        img{
+            height: 400px;
+        }
+    }
+}
